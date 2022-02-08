@@ -23,7 +23,7 @@
                      <Impression><![CDATA[http://example.com/ad/view]]></Impression>
                      <Creatives>
                         <Creative>
-                           <Linear  skipoffset="00:00:13">
+                           <Linear  skipoffset="00:00:3">
                               <Duration>00:00:10.6</Duration>
                               <MediaFiles>
                                  <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="0" width="640" height="360"><![CDATA[http://content.bitsontherun.com/videos/tafrxQYx-bPwArWA4.mp4]]></MediaFile>
