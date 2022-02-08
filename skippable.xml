@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vmap:VMAP xmlns:vmap="http://www.iab.net/vmap-1.0" version="1.0">
-   <vmap:AdBreak breakType="linear" breakId="prerolls" timeOffset="start" skipoffset="00:00:03">
+   <vmap:AdBreak breakType="linear" breakId="prerolls" timeOffset="start">
       <vmap:AdSource allowMultipleAds="true" followRedirects="true" id="1">
          <AdTagURI templateType="vast2"><![CDATA[http://playertest.longtailvideo.com/adtags/preroll-no-webm.xml]]></AdTagURI>
       </vmap:AdSource>
@@ -10,7 +10,7 @@
          <vmap:Tracking event="error"><![CDATA[http://test.videostrip.com/vmap/breakerror1.xml]]></vmap:Tracking>
       </vmap:TrackingEvents>
    </vmap:AdBreak>
-   <vmap:AdBreak breakType="linear" breakId="midrolls" timeOffset="00:00:10.125" skipoffset="00:00:13">
+   <vmap:AdBreak breakType="linear" breakId="midrolls" timeOffset="00:00:10.125">
       <vmap:AdSource allowMultipleAds="true" followRedirects="true" id="2">
          <VASTData>
             <VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
@@ -23,7 +23,7 @@
                      <Impression><![CDATA[http://example.com/ad/view]]></Impression>
                      <Creatives>
                         <Creative>
-                           <Linear>
+                           <Linear  skipoffset="00:00:13">
                               <Duration>00:00:10.6</Duration>
                               <MediaFiles>
                                  <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="0" width="640" height="360"><![CDATA[http://content.bitsontherun.com/videos/tafrxQYx-bPwArWA4.mp4]]></MediaFile>
