@@ -10,7 +10,7 @@
          <vmap:Tracking event="error"><![CDATA[http://test.videostrip.com/vmap/breakerror1.xml]]></vmap:Tracking>
       </vmap:TrackingEvents>
    </vmap:AdBreak>
-   <vmap:AdBreak breakType="linear" breakId="midrolls" timeOffset="00:00:10.125">
+   <vmap:AdBreak breakType="linear" breakId="midrolls" timeOffset="00:00:10.125" skipoffset="00:00:13">
       <vmap:AdSource allowMultipleAds="true" followRedirects="true" id="2">
          <VASTData>
             <VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
